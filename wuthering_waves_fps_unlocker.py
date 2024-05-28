@@ -45,7 +45,7 @@ def modify_frame_rate(db_path):
 
 
 app = tk.Tk()
-app.title("一键设置鸣潮帧率上限至120")
+app.title("一键解锁鸣潮帧率上限至120")
 app.geometry("400x225")
 
 select_button = tk.Button(app, text="请选择鸣潮启动器", command=select_launcher)
