@@ -10,6 +10,8 @@
 
 在启动器所在目录中的 `\Wuthering Waves Game\Client\Saved\LocalStorage` 路径下有一个 `LocalStorage.db` 数据库文件，其中 `LocalStorage` 表中的 `GameQualitySetting` 键对应的值是一个包含各种游戏设置的 JSON 字符串，字符串中的 `KeyCustomFrameRate` 值即为帧率上限。
 
+该程序会根据启动器位置自动定位到 `LocalStorage.db` 文件。
+
 ## 打包方法
 
 如果你想自行打包该程序，可以按照以下步骤操作：
